@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    height: auto;
+    width: 50%;
+    padding: 80px;
+    margin: auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: sans-serif;
+    box-shadow: 5px 8px rgba(29, 28, 28, 50);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    padding-top: 30px;
+}
+
+.input {
+    margin: 10px 0px;
+    padding: 10px 5px;
+    width: 95%;
+}
+
+
+
+.submit {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+
+    font-size: medium;
+
+    background-color: #C21010;
+    color: white;
+}
+
+.submit:hover {
+    background-color: #E64848;
+}
+
+.regis a{
+    text-decoration: none;
+    color: blue;
+}
+
+.login {
+    display: flex;
+    margin-top: 13%;
+    margin-bottom: 13%;
+}
+
+.login a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login .input {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+    background-color: rgb(198, 198, 198);
+    color: rgb(59, 59, 59);
+}
+
+.logo{
+    margin-right: 20px;
+}
+
+.login h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* .fullv{
+    height: 100vh;
+} */

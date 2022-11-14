@@ -1,0 +1,136 @@
+/* Main Content */
+.maincard{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    padding-bottom: 30px ;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    /* background-color: rgb(255, 255, 255); */
+  }
+  
+   .maincard h2{
+    position: absolute;
+    color:black;
+    /* font-weight: 400; */
+    font-size: 40px;
+    text-align: left;
+  }
+   
+  .card{
+    cursor: pointer;
+    position: relative;
+    background:rgba(58, 57, 57, 0.8);
+    border: 1px solid rgb(27, 24, 24);
+    padding: 20px;
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 150px;
+    border: 1px solid #101311;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: 0.6s ease;
+  }
+  
+  .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transform: translateY(-10px);
+  }
+  
+  .maincard .card .content{
+    text-align: start;
+    max-height: 250px;
+    border-radius: 4px;
+    background: transparent;
+  }
+  
+  .maincard .card .deskrip{
+    padding: 12px 0;
+  }
+  
+  .card .deskrip p{
+    padding: 12px 0px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 900;
+  }
+  
+  .button-50 {
+    appearance: button;
+    background-color: red;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #C21010 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .button-50:focus {
+    text-decoration: none;
+  }
+  
+  .button-50:hover {
+    text-decoration: none;
+  }
+  
+  .button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-50:not([disabled]):active {
+    box-shadow: rgb(124, 51, 51) 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-50 {
+      padding: 12px 50px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .maincard{
+      padding: 5px;
+  
+    }  
+    .maincard .card {
+      text-align: start;
+      display: grid;
+      grid-template-columns: auto;
+      max-height: 350px;
+      padding: 10px;
+    }
+  }
+  @media (max-width: 390px){
+    .maincard .card {
+      margin-top: 120px;
+    }
+  }
+/* Line terakhir Main Content */

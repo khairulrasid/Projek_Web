@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background: #16213E;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+nav .icon{
+    
+    font-weight: 1000;
+    font-style: italic;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+nav ol li{
+    margin: 0 3px;
+}
+nav ol li a{
+    color:aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+nav ol li:hover a{
+    background: #fff;
+    color: turquoise;
+}
+nav .search_box{
+    display: flex;
+    margin: auto 0;
+    height: 27px;
+    line-height: 35px;
+}
+nav .search_box input{
+    border: none;
+    outline: none;
+    background:#fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+}
+nav .search_box i{
+    width: 35px;
+    font-size: 25px;
+    color: #fff;
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    display: none;
+}
+nav .icon{
+    display: inline-block;
+    padding: 5px 50px;
+}
+nav .search_box{
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+nav .search_box input{
+    width: 80%;
+}
+.gambar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 20px;
+}
+
+.headercontent {
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.content h3{
+    border-bottom: 2px solid #cecece;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+.content.item{
+    float: left;
+    margin-right: 40px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  display: flex;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.content.img{
+    width: 250px;
+    padding: 10px;
+}
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+    padding: 10px;
+}
+.content.img img{
+    width: 250px;
+}
+.card p{
+    text-align: center;
+    font-size: 15px;
+}
+.card h5{
+    text-align: center;
+}
+footer {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: #16213E;
+    color: white;
+  }
